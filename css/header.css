@@ -1,0 +1,4 @@
+#menu-btn:checked + label + ul{
+    display: flex;
+    background-color: whitesmoke;
+}

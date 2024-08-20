@@ -1,0 +1,9 @@
+.arrows .left-arrow, .arrows .right-arrow, .texts{
+    background-color: #131318;
+}
+.texts .texts__description{
+    color: #FFFFFF99;
+}
+#image-container img{
+    object-position: 0px 35%;
+}
