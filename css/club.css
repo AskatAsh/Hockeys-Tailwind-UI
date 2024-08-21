@@ -1,0 +1,39 @@
+circle{
+    stroke-dasharray: 326;
+    stroke-dashoffset: 326;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.circle-1 {
+    animation-name: circular_1;
+}
+.circle-2 {
+    animation-name: circular_2;
+}
+.circle-3 {
+    animation-name: circular_3;
+}
+.circle-4 {
+    animation-name: circular_4;
+}
+@keyframes circular_1 {
+    to{
+        stroke-dashoffset: 53; /* 87% */
+    }
+}
+@keyframes circular_2 {
+    to{
+        stroke-dashoffset: 35; /* 95% */
+    }
+}
+@keyframes circular_3 {
+    to{
+        stroke-dashoffset: 40; /* 90% */
+    }
+}
+@keyframes circular_4 {
+    to{
+        stroke-dashoffset: 60; /* 80% */
+    }
+}
